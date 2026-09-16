@@ -1,1 +1,244 @@
-<h1>Hello World Wide Web!</h1>
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My About Me Page</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: "Times New Roman", serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: purple;
+            text-decoration: underline;
+        }
+
+        h2 {
+            color: darkblue;
+        }
+
+        /* DIV 1 */
+        .box1 {
+            background-color: pink;
+
+            padding: 20px;
+            margin: 20px;
+
+            border: 4px solid purple;
+
+            position: relative;
+            z-index: 1;
+        }
+
+        /* DIV 2 */
+        .box2 {
+            background-color: lightyellow;
+
+            padding: 15px;
+            margin: 30px;
+
+            border: 3px dashed blue;
+
+            position: relative;
+            z-index: 2;
+        }
+
+        /* DIV 3 */
+        .box3 {
+            background-color: lightgreen;
+
+            padding: 20px;
+            margin: 20px;
+
+            border: 5px double green;
+
+            position: relative;
+            z-index: 3;
+        }
+
+        /* Moving Rectangle */
+        .moving-box {
+            width: 100px;
+            height: 50px;
+            background-color: red;
+
+            border: 3px solid black;
+
+            position: relative;
+            z-index: 10;
+
+            animation: moveSideToSide 3s infinite alternate;
+        }
+
+        /* Animation */
+        @keyframes moveSideToSide {
+            from {
+                left: 0px;
+            }
+
+            to {
+                left: 300px;
+            }
+        }
+
+        /* PRE TEXT */
+        pre {
+            background-color: white;
+            border: 2px solid black;
+            padding: 10px;
+            display: inline-block;
+        }
+
+        /* Links */
+        a {
+            color: red;
+        }
+
+        /* Media */
+        img {
+            border: 4px solid black;
+        }
+
+        video {
+            border: 4px solid black;
+        }
+
+        audio {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- TITLE -->
+    <h1>★ WELCOME TO MY ABOUT ME PAGE ★</h1>
+
+    <p>
+        <b>Hello! My name is Aryan!</b>
+    </p>
+
+    <p>
+        I am <i>learning HTML and CSS</i> and this is my
+        <u>personal webpage!</u>
+    </p>
+
+
+    <!-- DIV 1 -->
+    <div class="box1">
+
+        <h2>About Me</h2>
+
+        <p>
+            Hi! I like technology, computers, sports,
+            music, and learning new things.
+        </p>
+
+        <p>
+            This is my <b>SUPER COOL</b>
+            <i>1990s-style</i> website!
+        </p>
+
+        <pre>
+************************
+*   WELCOME TO MY SITE *
+*        :-)           *
+************************
+        </pre>
+
+    </div>
+
+
+    <!-- DIV 2 -->
+    <div class="box2">
+
+        <h2>My Favorite Things</h2>
+
+        <p>
+            <b>Favorite Hobby:</b> Computers
+        </p>
+
+        <p>
+            <i>Favorite Sport:</i> Soccer
+        </p>
+
+        <p>
+            <b><i>Favorite Subject:</i></b> Technology
+        </p>
+
+        <p>
+            Visit my favorite website:
+            <a href="https://www.google.com">
+                CLICK HERE!
+            </a>
+        </p>
+
+    </div>
+
+
+    <!-- DIV 3 -->
+    <div class="box3">
+
+        <h2>My Picture, Video & Audio</h2>
+
+        <p>
+            <b>My Picture:</b>
+        </p>
+
+        <!-- REPLACE THE SRC WITH YOUR GITHUB IMAGE LINK -->
+        <img
+            src="DSC_1099.JPG"
+            width="300"
+            alt="My picture"
+        >
+
+        <br><br>
+
+        <p>
+            <b>My Video:</b>
+        </p>
+
+        <!-- REPLACE THE SRC WITH YOUR GITHUB VIDEO LINK -->
+        <video width="400" controls>
+            <source; src="file_example_MP4_480_1_5MG.mp4";type="video/mp4"
+            >
+        </video>
+
+        <br><br>
+
+        <p>
+            <b>My Audio:</b>
+        </p>
+
+        <!-- REPLACE THE SRC WITH YOUR GITHUB AUDIO LINK -->
+        <audio controls>
+            <source
+                src="file_example_MP3_700KB.mp3"
+                type="audio/mpeg">
+    
+        </audio>
+    </div>
+
+    <!-- ANIMATION -->
+    <h2>My Moving Rectangle</h2>
+
+    <div class="moving-box">
+    </div>
+
+
+    <br><br>
+
+    <p>
+        <b>Thanks for visiting my webpage!</b>
+    </p>
+
+    <p>
+        <i>Last Updated: 1999</i>
+    </p>
+
+</body>
+</html>
+
