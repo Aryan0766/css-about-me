@@ -1,139 +1,138 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>My About Me Page</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
     <style>
+      body {
+        background-color: black;
+        font color: green;
+        font-family: "Tangerine", cursive;
+        font-weight: 900;
+        font-size: 24px;
+        font-style: normal;
+        text-align: center;
+      }
 
-        body{
-            background-color: black;
-            font color: green;
-           font-family: "Tangerine", cursive;
-           font-weight: 500;
-           font-style: normal;
-            text-align: center;
-        }
+      h1 {
+        color: blue;
+        text-decoration: underline;
+      }
 
-        h1{
-            color: blue;
-            text-decoration: underline;
-        }
-      
-        h2{
-            color: blue;
-        }
+      h2 {
+        color: blue;
+      }
 
-        /* DIV 1 */
-        .box1{
-            color: blue;
-            padding: 20px;
-            margin: 20px;
-            border: 4px solid blue;
-            position: relative;
-            z-index: 1;
-        }
+      /* DIV 1 */
+      .box1 {
+        color: blue;
+        padding: 20px;
+        margin: 20px;
+        border: 4px solid blue;
+        position: relative;
+        z-index: 1;
+      }
 
-        /* DIV 2 */
-        .box2{
-            color: blue;
-            padding: 15px;
-            margin: 30px;
-            border: 3px dashed blue;
-            position: relative;
-            z-index: 2;
-        }
+      /* DIV 2 */
+      .box2 {
+        color: blue;
+        padding: 15px;
+        margin: 30px;
+        border: 3px dashed blue;
+        position: relative;
+        z-index: 2;
+      }
 
-        /* DIV 3 */
-        .box3{
-            color: blue;
-            padding: 20px;
-            margin: 20px;
-            border: 3px dashed blue;
-            position: relative;
-            z-index: 3;
-        }
+      /* DIV 3 */
+      .box3 {
+        color: blue;
+        padding: 20px;
+        margin: 20px;
+        border: 3px dashed blue;
+        position: relative;
+        z-index: 3;
+      }
 
-        /* Moving Rectangle */
-        .moving-box{
-            width: 100px;
-            height: 50px;
-            background-color: red;
-            border: 3px solid blue;
-            position: relative;
-            z-index: 10;
-            animation: moveSideToSide 5s infinite alternate;
-        }
+      /* Moving Rectangle */
+      .moving-box {
+        width: 100px;
+        height: 50px;
+        background-color: red;
+        border: 3px solid blue;
+        position: relative;
+        z-index: 10;
+        animation: moveSideToSide 5s infinite alternate;
+      }
 
-        /* Animation */
-        @keyframes moveSideToSide{
-            from{
-                left: -150px;
-            }
-
-            to{
-                left: 920px;
-            }
+      /* Animation */
+      @keyframes moveSideToSide {
+        from {
+          left: -150px;
         }
 
-        /* PRE TEXT */
-        pre{
-            background-color: white;
-            border: 2px solid black;
-            padding: 10px;
-            display: inline-block;
+        to {
+          left: 920px;
         }
+      }
 
-        /* Links */
-        a{
-            color: red;
-        }
-        /* Media */
-        img{
-            border: 4px solid blue;
-        }
+      /* PRE TEXT */
+      pre {
+        background-color: white;
+        border: 2px solid black;
+        padding: 10px;
+        display: inline-block;
+      }
 
-        video{
-            border: 4px solid blue;
-        }
-        audio{
-            margin: 10px;
-        }
+      /* Links */
+      a {
+        color: red;
+      }
+      /* Media */
+      img {
+        border: 4px solid blue;
+      }
+
+      video {
+        border: 4px solid blue;
+      }
+
+      audio {
+        margin: 10px;
+      }
     </style>
-</head>
-
-<body>
-
+  </head>
+  <body>
     <!-- TITLE -->
     <h1> WELCOME TO MY ABOUT ME PAGE </h1>
 
     <p>
-        <b>Hello My name is Aryan!</b>
+      <b>Hello My name is Aryan!</b>
     </p>
 
     <p>
-        I am <i>learning HTML and CSS</i> and this is my
-        <u>personal webpage!</u>
+      I am <i>learning HTML and CSS</i> and this is my
+      <u>personal webpage!</u>
     </p>
 
 
     <!-- DIV 1 -->
     <div class="box1">
 
-        <h2>About Me</h2>
+      <h2>About Me</h2>
 
-        <p>
-            Hi! I like technology, computers, sports,
-            music, and learning new things.
-        </p>
+      <p>
+        Hi! I like technology, computers, sports,
+        music, and learning new things.
+      </p>
 
-        <p>
-            This is my <b>SUPER COOL</b>
-            <i>1990s-style</i> website!
-        </p>
+      <p>
+        This is my <b>SUPER COOL</b>
+        <i>1990s-style</i> website!
+      </p>
 
-        <pre>
+      <pre>
 ************************
    WELCOME TO MY SITE 
            :-)           
@@ -142,92 +141,72 @@
 
     </div>
 
-
     <!-- DIV 2 -->
     <div class="box2">
 
-        <h2>My Favorite Things</h2>
+      <h2>My Favorite Things</h2>
 
-        <p>
-            <b>Favorite Hobby:</b> Computers
-        </p>
+      <p>
+        <b>Favorite Hobby:</b> Computers
+      </p>
 
-        <p>
-            <i>Favorite Sport:</i> Soccer
-        </p>
+      <p>
+        <i>Favorite Sport:</i> Soccer
+      </p>
 
-        <p>
-            <b><i>Favorite Subject:</i></b> Finance
-        </p>
+      <p>
+        <b><i>Favorite Subject:</i></b> Finance
+      </p>
 
-        <p>
-            Visit my favorite website:
-            <a href="https://www.bored.com/">
-                CLICK HERE!
-            </a>
-        </p>
-
+      <p>
+        Visit my favorite website:
+        <a href="https://www.bored.com/">
+          CLICK HERE!
+        </a>
+      </p>
     </div>
-
 
     <!-- DIV 3 -->
     <div class="box3">
 
-        <h2>My Picture, Video & Audio</h2>
+      <h2>My Picture, Video & Audio</h2>
 
-        <p>
-            <b>My Picture:</b>
-        </p>
+      <p>
+        <b>My Picture:</b>
+      </p>
 
-        <!-- REPLACE THE SRC WITH YOUR GITHUB IMAGE LINK -->
-        <img
-            src="DSC_1099.JPG"
-            width="300"
-            alt="My picture"
-        >
-        <br><br>
-        <p>
-            <b>My Video:</b>
-        </p>
-        <!-- REPLACE THE SRC WITH YOUR GITHUB VIDEO LINK -->
-       <video width="400" controls>
-    <source 
-        src="https://github.com/Aryan0766/css-about-me/blob/main/file_example_MP3_700KB.mp3"
-        type="video/mp4"
-    >
-    Your browser does not support video.
-</video>
+      <img src="DSC_1099.JPG" width="300" alt="My picture">
+      <br><br>
+      <p>
+        <b>My Video:</b>
+      </p>
+      
+      <video width="400" controls>
+        <source src="https://github.com/Aryan0766/css-about-me/blob/main/file_example_MP3_700KB.mp3" type="video/mp4">
+        Your browser does not support video.
+      </video>
 
-        <br><br>
-        <p>
-            <b>My Audio:</b>
-        </p>
+      <br><br>
+      <p>
+        <b>My Audio:</b>
+      </p>
 
-        <!-- REPLACE THE SRC WITH YOUR GITHUB AUDIO LINK -->
-        <audio controls>
-            <source
-                src="file_example_MP3_700KB.mp3"
-                type="audio/mpeg">
-    
-        </audio>
+      <audio controls>
+        <source src="file_example_MP3_700KB.mp3" type="audio/mpeg">
+      </audio>
     </div>
-
     <!-- ANIMATION -->
     <h2>My Moving Rectangle</h2>
-
     <div class="moving-box">
     </div>
-
-
     <br><br>
 
     <p>
-        <b>Thanks for visiting my webpage!</b>
+      <b>Thanks for visiting my webpage!</b>
     </p>
-
     <p>
-        <i>Last Updated: 1999</i>
+      <i>Last Updated: 1999</i>
     </p>
 
-</body>
+  </body>
 </html>
