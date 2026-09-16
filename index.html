@@ -1,91 +1,78 @@
-```html
 <!DOCTYPE html>
 <html>
 <head>
     <title>My About Me Page</title>
 
     <style>
-        body {
+        body{
             background-color: lightblue;
-            font-family: "Times New Roman", serif;
+            font-family: "Times New Roman";
             text-align: center;
         }
 
-        h1 {
+        h1{
             color: purple;
             text-decoration: underline;
         }
-
-        h2 {
+      
+        h2{
             color: darkblue;
         }
 
         /* DIV 1 */
-        .box1 {
+        .box1{
             background-color: pink;
-
             padding: 20px;
             margin: 20px;
-
             border: 4px solid purple;
-
             position: relative;
             z-index: 1;
         }
 
         /* DIV 2 */
-        .box2 {
+        .box2{
             background-color: lightyellow;
-
             padding: 15px;
             margin: 30px;
-
             border: 3px dashed blue;
-
             position: relative;
             z-index: 2;
         }
 
         /* DIV 3 */
-        .box3 {
+        .box3{
             background-color: lightgreen;
-
             padding: 20px;
             margin: 20px;
-
             border: 5px double green;
-
             position: relative;
             z-index: 3;
         }
 
         /* Moving Rectangle */
-        .moving-box {
+        .moving-box{
             width: 100px;
             height: 50px;
             background-color: red;
-
             border: 3px solid black;
-
             position: relative;
             z-index: 10;
-
-            animation: moveSideToSide 3s infinite alternate;
+            animation: moveSideToSide 5s infinite alternate;
         }
 
         /* Animation */
-        @keyframes moveSideToSide {
-            from {
-                left: 0px;
+        @keyframes moveSideToSide{
+            from{
+                left: -150px;
             }
 
-            to {
-                left: 300px;
+            to{
+                left: 750px;
             }
         }
 
         /* PRE TEXT */
-        pre {
+        pre{
             background-color: white;
             border: 2px solid black;
             padding: 10px;
@@ -93,20 +80,20 @@
         }
 
         /* Links */
-        a {
+        a{
             color: red;
         }
 
         /* Media */
-        img {
+        img{
             border: 4px solid black;
         }
 
-        video {
+        video{
             border: 4px solid black;
         }
 
-        audio {
+        audio{
             margin: 10px;
         }
     </style>
@@ -115,7 +102,7 @@
 <body>
 
     <!-- TITLE -->
-    <h1>★ WELCOME TO MY ABOUT ME PAGE ★</h1>
+    <h1> WELCOME TO MY ABOUT ME PAGE </h1>
 
     <p>
         <b>Hello! My name is Aryan!</b>
@@ -144,8 +131,8 @@
 
         <pre>
 ************************
-*   WELCOME TO MY SITE *
-*        :-)           *
+   WELCOME TO MY SITE 
+           :-)           
 ************************
         </pre>
 
@@ -241,4 +228,3 @@
 
 </body>
 </html>
-
